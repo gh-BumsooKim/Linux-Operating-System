@@ -1,22 +1,36 @@
 ## Kernel Module Programming 
 
 #### kernel version
-```uname -r```
+```
+uname -r
+```
 
 #### makefile
-```sudo make```
+```
+sudo make
+```
 
 #### insert custom module to kernel
-```sudo insmod [FILE_NAME].ko```
+```
+sudo insmod [FILE_NAME].ko
+```
 
 #### console log messege
-```dmesg | tail```
+```
+dmesg | tail
+```
 
 #### current module list
-```lsmod | grep [FILE_NAME]```
+```
+lsmod | grep [FILE_NAME]
+```
 
 #### remove custom module in kernel
-```sudo rmmod [FILE_NAME]```
+```
+sudo rmmod [FILE_NAME]
+```
 
 #### console log messege
-```demsg | tail```
+```
+demsg | tail
+```
