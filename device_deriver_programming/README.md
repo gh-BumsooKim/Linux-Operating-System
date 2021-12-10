@@ -45,8 +45,10 @@ dmesg | tail
 ```
 
 #### test file
+```
 gcc [TEST_FILE].c
 ./a.out
+```
 
 #### console log messege
 ```
@@ -59,4 +61,6 @@ sudo rmmod [FILE_NAME ]
 ```
 
 #### clean makefile
+```
 make clean
+```
